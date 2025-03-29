@@ -6,6 +6,8 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import novalabs from'./novalabs.png'
 import instagram from './instagram.png'
+import boatBlitz from './boatBlitz.png'
+import templeOfMasks from './tom.png'
 
 export {
     hero,
@@ -15,5 +17,7 @@ export {
     tesla,
     logo,
     novalabs,
-    instagram
+    instagram,
+    boatBlitz,
+    templeOfMasks,
 }

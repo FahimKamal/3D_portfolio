@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, novalabs, instagram } from "../assets/images";
+import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks } from "../assets/images";
 import {
     car,
     contact,
@@ -135,25 +135,25 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: "https://play-lh.googleusercontent.com/Xxqx6-wN-ROi5TQ0JxOcWmew99uA2AkeuWI3NvooVPgqq_pzzFvTuSdfWifmufGRagg=w2560-h1440-rw",
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'FallTastic',
+        description: 'As Lead Developer, I oversaw game design and mechanics, built the 3D world, implemented dynamic animations, and contributed UI ideas, ensuring a cohesive and engaging player experience.',
+        link: 'https://play.google.com/store/apps/details?id=com.novalabs.falltastic',
     },
     {
-        iconUrl: threads,
+        iconUrl: boatBlitz,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
+        name: 'Boat Blitz',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://play.google.com/store/apps/details?id=com.novalabs.bb',
     },
     {
-        iconUrl: car,
+        iconUrl: templeOfMasks,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'Temple Of Masks',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://play.google.com/store/apps/details?id=com.novalabs.tom',
     },
     {
         iconUrl: snapgram,
