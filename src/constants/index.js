@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks } from "../assets/images";
+import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks, spellcaster } from "../assets/images";
 import {
     car,
     contact,
@@ -145,35 +145,21 @@ export const projects = [
         iconUrl: boatBlitz,
         theme: 'btn-back-green',
         name: 'Boat Blitz',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        description: 'Developed an infinite water and island system with dynamic terrain for an endless ocean. Implemented a day-night cycle with realistic lighting. Designed and integrated UI for a smooth player experience.',
         link: 'https://play.google.com/store/apps/details?id=com.novalabs.bb',
     },
     {
         iconUrl: templeOfMasks,
         theme: 'btn-back-blue',
         name: 'Temple Of Masks',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        description: 'Designed and developed 70 levels (31–100) under senior supervision. Documented C# classes and functions for future use. Added Mayan culture fact pop-ups to enhance player immersion.',
         link: 'https://play.google.com/store/apps/details?id=com.novalabs.tom',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: spellcaster,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Spellcaster',
+        description: 'Spellcaster is a fast-paced top-down action survival game built in Unreal Engine with Blueprints. Play as a sorcerer’s apprentice, wield spells, fight waves of slimes, level up, and survive as long as possible!',
+        link: 'https://github.com/FahimKamal/UE5_Survivor_io',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

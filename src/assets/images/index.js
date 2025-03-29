@@ -8,6 +8,7 @@ import novalabs from'./novalabs.png'
 import instagram from './instagram.png'
 import boatBlitz from './boatBlitz.png'
 import templeOfMasks from './tom.png'
+import spellcaster from './Spellcaster.png'
 
 export {
     hero,
@@ -20,4 +21,5 @@ export {
     instagram,
     boatBlitz,
     templeOfMasks,
+    spellcaster,
 }
