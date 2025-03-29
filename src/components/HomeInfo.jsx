@@ -22,7 +22,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Fahim Kamal</span>
         👋
         <br />
-        A Game Developer from Bangladesh, crafting immersive experiences with Unity & Unreal Engine.
+        A Game Developer from Bangladesh, crafting immersive experiences with Unreal Engine & Unity.
         {/* A Game Developer from Bangladesh, crafting immersive experiences over the years.  */}
       </h1>
     );

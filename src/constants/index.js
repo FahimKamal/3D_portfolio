@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, novalabs, instagram } from "../assets/images";
 import {
     car,
     contact,
@@ -28,14 +28,29 @@ import {
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+        name: "C++",
+        type: "Programming Language"
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+        name: "C#",
+        type: "Programming Language"
+    },    
+    {
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg",
+        name: "Unreal Engine",
+        type: "Game Engine"
+    },    
+    {
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
+        name: "Unity",
+        type: "Game Engine"
+    },    
+    {
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg",
+        name: "Rider",
+        type: "Tools"
     },
     {
         imageUrl: git,
@@ -46,120 +61,56 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
-    },
+    },    
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg",
+        name: "Blender",
+        type: "Tools"
     },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Jr. Game Engine Engineer",
+        company_name: "Nova Labs",
+        icon: novalabs,
+        iconBg: "#e9f0f5",
+        date: "Oct 2022 - Sept 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Reviewed and analyzed existing project codebases to understand company development standards.",
+            "Identified bugs and potential improvements in legacy code, enhancing project stability.",
+            "Assisted in feature development by translating pseudocode into C# implementations, reviewed and optimized by senior developers.",
+            "Gained hands-on experience with Git, GitHub, and professional version control workflows for organizing projects.",
+            "Developed problem-solving skills by tackling game development challenges presented by senior engineers.",
+            "Successfully provided optimized solutions for complex gameplay mechanics by the end of the year.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Game Engine Engineer",
+        company_name: "Nova Labs",
+        icon: novalabs,
+        iconBg: "#e9f0f5",
+        date: "Oct 2023 - Oct 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked on multiple projects, implementing assigned features independently while meeting deadlines.",
+            "Wrote detailed documentation for each completed project, ensuring future developers could easily understand the codebase.",
+            "Participated in project ideation meetings, contributing ideas on game mechanics, features, and story development.",
+            "Collaborated with the team to transform selected ideas into fully developed games.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Game Mechanic Engineer",
+        company_name: "Nova Labs",
+        icon: novalabs,
+        iconBg: "#e9f0f5",
+        date: "Nov 2024 - Feb 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Served as a lead developer, overseeing game mechanics implementation and feature development.",
+            "Actively participated in project planning meetings, defining gameplay features, mechanics, and overall game themes.",
+            "Assigned tasks to 3D designers, 2D artists, and developers, ensuring efficient workflow and collaboration.",
+            "Led the creation of Game Design Documents (GDD) to guide project development.",
+            "Monitored team progress, ensuring deadlines were met and assisting members in overcoming technical challenges.",
+            "Led development of Falltastic, successfully managing feature implementation and game mechanics.",
         ],
     },
 ];
@@ -167,18 +118,18 @@ export const experiences = [
 export const socialLinks = [
     {
         name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
+        iconUrl: instagram,
+        link: 'https://www.instagram.com/fahimkamal63/',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/FahimKamal',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://linkedin.com/in/fk-ahmed',
     }
 ];
 

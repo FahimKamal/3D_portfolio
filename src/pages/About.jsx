@@ -5,6 +5,7 @@ import {
 
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
+import { resume } from "../assets/Files";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -15,15 +16,17 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Fahim
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+      <code>Game Developer (Gamer/Dreamer/Creator)</code>
+        <p class="text-justify">
+        I’m a passionate Game Developer with 3+ years of experience crafting immersive gameplay experiences.  
+        My journey began as a Computer Science student, where I discovered my love for game development,  
+        and ever since, I’ve been bringing ideas to life through code and creativity.  
         </p>
       </div>
 
@@ -49,9 +52,11 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+          <p class="text">
+          Over the years, I’ve contributed to multiple game projects, leveling up from a  
+          Jr. Game Engine Engineer to a Game Mechanics Engineer. From debugging and implementing  
+          core features to designing game mechanics, I’ve been deeply involved in shaping  
+          engaging player experiences.
           </p>
         </div>
 
@@ -94,7 +99,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black-500/80 font-normal pl-1 text-sm'
                     >
                       {point}
                     </li>
@@ -106,6 +111,12 @@ const About = () => {
         </div>
       </div>
 
+      
+      <div className="justify-center items-center flex h-[10vh]">
+        <button className="btn">
+          <a href={resume} download="Resume">Download CV</a>
+        </button>
+        </div>
       <hr className='border-slate-200' />
 
       <CTA />

@@ -161,7 +161,7 @@ const Contact = () => {
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              scale={[0.4, 0.4, 0.4]}
             />
           </Suspense>
         </Canvas>
