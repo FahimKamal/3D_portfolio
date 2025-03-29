@@ -31,9 +31,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Fahim Kamal",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "fahimkamal63@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -147,7 +147,7 @@ const Contact = () => {
           }}
         >
           <directionalLight position={[0, 0, 1]} intensity={2.5} />
-          <ambientLight intensity={1} />
+          <ambientLight intensity={0.5} />
           <pointLight position={[5, 10, 0]} intensity={2} />
           <spotLight
             position={[10, 10, 10]}
