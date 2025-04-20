@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks, spellcaster } from "../assets/images";
+import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks, spellcaster, PixelPilgrim } from "../assets/images";
 import {
     car,
     contact,
@@ -161,5 +161,12 @@ export const projects = [
         name: 'Spellcaster',
         description: 'Spellcaster is a fast-paced top-down action survival game built in Unreal Engine with Blueprints. Play as a sorcerer’s apprentice, wield spells, fight waves of slimes, level up, and survive as long as possible!',
         link: 'https://github.com/FahimKamal/UE5_Survivor_io',
+    },
+    {
+        iconUrl: PixelPilgrim,
+        theme: 'btn-back-pink',
+        name: 'Pixel Pilgrim',
+        description: 'Discover ancient tales! A UE5 Hybrid RPG set in old China, using PaperZD for 2D chars in 3D space. Explore, interact, follow the story. BP driven.',
+        link: 'https://github.com/FahimKamal/UE5_HybridRPG',
     },
 ];

@@ -9,6 +9,7 @@ import instagram from './instagram.png'
 import boatBlitz from './boatBlitz.png'
 import templeOfMasks from './tom.png'
 import spellcaster from './Spellcaster.png'
+import PixelPilgrim from './Pixel Pilgrim.jpg'
 
 export {
     hero,
@@ -22,4 +23,5 @@ export {
     boatBlitz,
     templeOfMasks,
     spellcaster,
+    PixelPilgrim
 }

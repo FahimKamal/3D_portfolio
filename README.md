@@ -7,3 +7,12 @@
 ### [📙 Free Three.js Cheatsheet](https://resource.jsmastery.pro/threejs-cheatsheet)
 ### [🌐 Best Hosting for Your Websites](https://hostinger.com/javascript10)
 
+### **Some important Commands**
+#### Run the project 
+```
+npm run dev
+```
+#### Save and deploy on GitHub 
+```
+npm run deploy
+```
