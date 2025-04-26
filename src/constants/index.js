@@ -1,4 +1,17 @@
-import { meta, shopify, starbucks, tesla, novalabs, instagram, boatBlitz, templeOfMasks, spellcaster, PixelPilgrim } from "../assets/images";
+import { 
+    meta, 
+    shopify, 
+    starbucks, 
+    tesla, 
+    novalabs, 
+    instagram, 
+    boatBlitz, 
+    templeOfMasks, 
+    spellcaster, 
+    PixelPilgrim, 
+    Falltastic, 
+    JPTemple 
+} from "../assets/images";
 import {
     car,
     contact,
@@ -134,8 +147,31 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    
     {
-        iconUrl: "https://play-lh.googleusercontent.com/Xxqx6-wN-ROi5TQ0JxOcWmew99uA2AkeuWI3NvooVPgqq_pzzFvTuSdfWifmufGRagg=w2560-h1440-rw",
+        iconUrl: PixelPilgrim,
+        theme: 'btn-back-pink',
+        name: 'Pixel Pilgrim',
+        description: 'Discover ancient tales! A UE5 Hybrid RPG set in old China, using PaperZD for 2D chars in 3D space. Explore, interact, follow the story. BP driven.',
+        link: 'https://github.com/FahimKamal/UE5_HybridRPG',
+    },
+    
+    {
+        iconUrl: JPTemple,
+        theme: 'btn-back-pink',
+        name: 'Japanese Temple',
+        description: 'Step into tranquility. This project is focused on creating a detailed and atmospheric Japanese Temple environment using Unreal Engine 5.5.1. This project serves as both a learning exercise and a portfolio piece, showcasing skills in environment art, level design, lighting, material creation, within UE5.',
+        link: 'https://gitlab.com/unreale5/UE5_JP_Temple',
+    },
+    {
+        iconUrl: spellcaster,
+        theme: 'btn-back-pink',
+        name: 'Spellcaster',
+        description: 'Spellcaster is a fast-paced top-down action survival game built in Unreal Engine with Blueprints. Play as a sorcerer’s apprentice, wield spells, fight waves of slimes, level up, and survive as long as possible!',
+        link: 'https://github.com/FahimKamal/UE5_Survivor_io',
+    },
+    {
+        iconUrl: Falltastic,
         theme: 'btn-back-red',
         name: 'FallTastic',
         description: 'As Lead Developer, I oversaw game design and mechanics, built the 3D world, implemented dynamic animations, and contributed UI ideas, ensuring a cohesive and engaging player experience.',
@@ -154,19 +190,5 @@ export const projects = [
         name: 'Temple Of Masks',
         description: 'Designed and developed 70 levels (31–100) under senior supervision. Documented C# classes and functions for future use. Added Mayan culture fact pop-ups to enhance player immersion.',
         link: 'https://play.google.com/store/apps/details?id=com.novalabs.tom',
-    },
-    {
-        iconUrl: spellcaster,
-        theme: 'btn-back-pink',
-        name: 'Spellcaster',
-        description: 'Spellcaster is a fast-paced top-down action survival game built in Unreal Engine with Blueprints. Play as a sorcerer’s apprentice, wield spells, fight waves of slimes, level up, and survive as long as possible!',
-        link: 'https://github.com/FahimKamal/UE5_Survivor_io',
-    },
-    {
-        iconUrl: PixelPilgrim,
-        theme: 'btn-back-pink',
-        name: 'Pixel Pilgrim',
-        description: 'Discover ancient tales! A UE5 Hybrid RPG set in old China, using PaperZD for 2D chars in 3D space. Explore, interact, follow the story. BP driven.',
-        link: 'https://github.com/FahimKamal/UE5_HybridRPG',
     },
 ];

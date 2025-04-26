@@ -10,6 +10,8 @@ import boatBlitz from './boatBlitz.png'
 import templeOfMasks from './tom.png'
 import spellcaster from './Spellcaster.png'
 import PixelPilgrim from './Pixel Pilgrim.jpg'
+import Falltastic from './falltastic.webp'
+import JPTemple from './JP-Temple.jpg'
 
 export {
     hero,
@@ -23,5 +25,7 @@ export {
     boatBlitz,
     templeOfMasks,
     spellcaster,
-    PixelPilgrim
+    PixelPilgrim,
+    Falltastic,
+    JPTemple,
 }
